@@ -11,7 +11,7 @@ reverse = reverse + t%10;
 t = t/10;
 }
 if (n == reverse)
-printf("%d ", n);
+printf("yes");
 else
-printf("%d", n);
+printf("No");
 }
