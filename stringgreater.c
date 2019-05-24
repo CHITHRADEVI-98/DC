@@ -8,7 +8,7 @@ int main()
   scanf("%s",&str2);
   n1=strlen(str1);
   n2=strlen(str2);
-  if(n1>n2)
+  if(n1>=n2)
   {
       printf("%s",str1);
   }
