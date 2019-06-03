@@ -1,16 +1,16 @@
 #include <stdio.h>
 
-int main()
+void main()
 {
    int a,b,sum;
-   scanf("%d,%d",&a,&b);
+   scanf("%d%d",&a,&b);
    sum=a+b;
-   if(sum%2==1)
+   if(sum%2==0)
    {
-       printf("odd");
+       printf("even");
    }
    else
    {
-       printf("even");
+       printf("odd");
    }
 }
